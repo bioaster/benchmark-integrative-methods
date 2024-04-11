@@ -1,6 +1,6 @@
 #!/bin/bash
 
-scenarii=("Reference" "pDivided5" "pMultiplied5" "nDivided5" "nMultiplied5" "CaseControl1:7" "Equalp60" "Equalp240" "MainMO2smallestOmics" "MainMO2largestOmics" "HighMainMO" "HighConfMO" "HighConfMOIntersect" "HighConfSO" "HighConfSOIntersect" "OverlapAcrossEffects" "HighFractSignalFeat" "Noise" )
+scenarii=("Reference" "pDivided5" "pMultiplied5" "nDivided5" "nMultiplied5" "CaseControl1:7" "Equalp60" "Equalp240" "MainMO2SmallestOmics" "MainMO2LargestOmics" "HighMainMO" "HighConfMO" "HighConfMOIntersect" "HighConfSO" "HighConfSOIntersect" "OverlapAcrossEffects" "HighFractSignalFeat" "Noise" )
 
 for sim in ${scenarii[@]}
 do
